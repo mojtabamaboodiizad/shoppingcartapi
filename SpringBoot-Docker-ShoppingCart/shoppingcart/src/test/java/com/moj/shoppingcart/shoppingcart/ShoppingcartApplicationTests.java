@@ -28,7 +28,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest    //tell spring to load the application context
 @AutoConfigureMockMvc //create and autoConfig Mock MVC
 class ShoppingcartApplicationTests {
-/*
     @MockBean
     private ProductService service;   //Create a mock version of the product service
     @Autowired
@@ -67,5 +66,5 @@ class ShoppingcartApplicationTests {
                 .andExpect(jsonPath("$.category", is("product_cate")))
                 .andExpect(jsonPath("$.price", is(2500)));
 
-    }*/
+    }
 }
